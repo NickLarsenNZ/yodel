@@ -1,14 +1,15 @@
 // Based on go-ircevent examples
 // https://github.com/thoj/go-ircevent/tree/master/examples
 
-package main
+package yodel
 
 import (
 	"fmt"
-	"github.com/spf13/viper"
 	"log"
 	"os"
 	"strings"
+
+	"github.com/spf13/viper"
 )
 
 func ReadConfigs() {
